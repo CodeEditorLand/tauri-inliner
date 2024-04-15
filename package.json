@@ -1,6 +1,14 @@
 {
+	"author": {
+		"email": "Land@Playform.Cloud",
+		"name": "Land",
+		"url": "HTTPS://Land.Playform.Cloud"
+	},
 	"bin": {
 		"inliner": "cli/index.js"
+	},
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/TauriInliner/issues"
 	},
 	"config": {
 		"ghooks": {
@@ -33,6 +41,7 @@
 	"description": "Utility to inline images, CSS and JavaScript for a web page - useful for mobile sites",
 	"devDependencies": {
 		"@playform/build": "0.0.7",
+		"@playform/document": "0.0.6",
 		"ghooks": "2.0.4",
 		"semantic-release": "23.0.8",
 		"st": "3.0.0",
@@ -40,13 +49,25 @@
 		"tap-only": "0.0.5",
 		"validate-commit-msg": "2.14.0"
 	},
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/TauriInliner#readme",
+	"license": "SEE LICENSE IN LICENSE",
 	"main": "lib/index.js",
 	"name": "@tauri-apps/tauri-inliner",
+	"private": false,
+	"publishConfig": {
+		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/TauriInliner.git"
+	},
 	"scripts": {
 		"Document": "Document 'Source/**/*.ts'",
 		"cover": "tap test/*.test.js --cov --coverage-report=lcov",
 		"prepublishOnly": "Build 'Source/**/*.ts'",
 		"semantic-release": "semantic-release pre && npm publish && semantic-release post",
 		"tap": "tap test/*.test.js --cov -R spec"
-	}
+	},
+	"type": "module",
+	"version": "0.0.1"
 }
