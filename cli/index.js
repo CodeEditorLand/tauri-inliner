@@ -108,7 +108,7 @@ function main () {
       'exit SIGINT SIGTERM'.split(' ').map(function (event) {
         process.once(event, function () {
           process.stderr.write(ansi.cursorShow) // put the cursor back
-          try { process.kill(process.pid, event) } catch (e) {}
+          try { process.kill(process.pid, event) } catch (_Error) {}
         })
       })
     } else {
