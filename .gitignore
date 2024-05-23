@@ -4,11 +4,8 @@ coverage
 tmp/
 
 /.vs
-.DS_Store
 .Thumbs.db
 *.sublime*
 .idea
-debug.log
-package-lock.json
 .vscode/settings.json
 */.vscode/
