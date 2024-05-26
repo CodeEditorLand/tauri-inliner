@@ -42,7 +42,7 @@
 		"ghooks": "2.0.4",
 		"semantic-release": "23.1.1",
 		"st": "3.0.0",
-		"tap": "19.0.0",
+		"tap": "19.0.1",
 		"tap-only": "0.0.5",
 		"validate-commit-msg": "2.14.0"
 	}
