@@ -16,13 +16,13 @@ requests.
 -   Base64 encode images and videos
 -   Puts everything back together as a single HTML file with a simplfied doctype
 
-## Installation
+## 🚀 Installation
 
 Install the `inliner` utility via [npm](http://npmjs.org):
 
     $ npm install -g inliner
 
-## Usage
+## 🛠️ Usage
 
 If you have either installed via npm or put the inliner bin directory in your
 path, then you can use inliner via the command line as per:
