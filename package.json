@@ -27,8 +27,8 @@
 		"request": "2.88.2",
 		"svgo": "3.3.2",
 		"then-fs": "2.0.0",
-		"uglify-js": "3.19.2",
-		"update-notifier": "7.2.0"
+		"uglify-js": "3.19.3",
+		"update-notifier": "7.3.0"
 	},
 	"description": "Utility to inline images, CSS and JavaScript for a web page - useful for mobile sites",
 	"devDependencies": {
