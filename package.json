@@ -45,7 +45,7 @@
 		"tap": "21.0.1",
 		"tap-only": "0.0.5",
 <<<<<<< HEAD
-		"validate-commit-msg": "^2.14.0"
+		"validate-commit-msg": "2.14.0"
 =======
 		"validate-commit-msg": "2.14.0"
 	},
