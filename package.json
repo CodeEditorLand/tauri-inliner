@@ -33,8 +33,8 @@
 	"description": "Utility to inline images, CSS and JavaScript for a web page - useful for mobile sites",
 	"devDependencies": {
 		"ghooks": "2.0.4",
-		"semantic-release": "24.1.3",
-		"st": "3.0.0",
+		"semantic-release": "24.2.0",
+		"st": "3.0.1",
 		"tap": "21.0.1",
 		"tap-only": "0.0.5",
 		"validate-commit-msg": "2.14.0"
